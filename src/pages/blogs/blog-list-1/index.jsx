@@ -10,7 +10,7 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "Blog-list-1 || Educrat - Professional LMS Online Education Course ReactJS Template",
+    "Blogs || Educrat - Professional LMS Online Education Course ReactJS Template",
   description:
     "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
 };
