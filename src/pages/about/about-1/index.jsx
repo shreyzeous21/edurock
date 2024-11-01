@@ -15,7 +15,7 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "About-1 || Edurock - Professional LMS Online Education Course ReactJS Template",
+    "About Us || Edurock - Professional LMS Online Education Course ReactJS Template",
   description:
     "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };

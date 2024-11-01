@@ -81,7 +81,7 @@ export default function Menu({ allClasses, headerPosition }) {
 
             <li className="menu-item-has-children">
               <Link
-                to="about-1"
+                to="/about-1"
                 className={
                   submenu == "About Us" ? "activeMenu" : "inActiveMenu"
                 }
