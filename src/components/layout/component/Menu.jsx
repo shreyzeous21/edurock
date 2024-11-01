@@ -122,10 +122,10 @@ export default function Menu({ allClasses, headerPosition }) {
                 className={menuItem == "Courses" ? "activeMenu" : ""}
               >
                 Courses
-                {/* <i className="icon-chevron-right text-13 ml-10"></i> */}
+                <i className="icon-chevron-right text-13 ml-10"></i>
               </Link>
 
-              {/* <div className="mega xl:d-none">
+              <div className="mega xl:d-none">
                 <div className="mega__menu">
                   <div className="row x-gap-40">
                     <div className="col">
@@ -253,7 +253,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </Link>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </li>
 
             {/* <li className="menu-item-has-children">
