@@ -72,7 +72,7 @@ export default function HeroTwo() {
               data-aos-delay="500"
             >
               <h1 className="mainSlider__title text-white">
-                Learn Your Way With Educrat To{" "}
+                Learn Your Way With Edurock To{" "}
                 <span className="text-green-1 underline">Web Design</span>
               </h1>
 

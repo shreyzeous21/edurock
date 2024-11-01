@@ -8,9 +8,9 @@ import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Event || Educrat - Professional LMS Online Education Course Platform",
+  title: "Event || Edurock - Professional LMS Online Education Course Platform",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 export default function EventListPage2() {
   return (

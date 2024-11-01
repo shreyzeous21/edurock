@@ -9,9 +9,9 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "Dashboard-assignment || Educrat - Professional LMS Online Education Course ReactJS Template",
+    "Dashboard-assignment || Edurock - Professional LMS Online Education Course ReactJS Template",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 
 export default function DshbAssignmentPage() {

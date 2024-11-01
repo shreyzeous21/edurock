@@ -17,9 +17,9 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "UI elements || Educrat - Professional LMS Online Education Course ReactJS Template",
+    "UI elements || Edurock - Professional LMS Online Education Course ReactJS Template",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 import React from "react";
 

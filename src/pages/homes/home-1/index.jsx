@@ -20,9 +20,9 @@ import Preloader from "@/components/common/Preloader";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Educrat - Professional LMS Online Education Course PLatform",
+  title: "Edurock - Professional LMS Online Education Course PLatform",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 
 export default function HomePage1() {
