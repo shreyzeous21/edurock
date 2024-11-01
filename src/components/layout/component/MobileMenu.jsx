@@ -71,7 +71,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
                       className="title"
                       onClick={() =>
                         setMenuNesting((pre) =>
-                          pre[0] == elm.title ? [] : [elm.title],
+                          pre[0] == elm.title ? [] : [elm.title]
                         )
                       }
                     >
@@ -82,13 +82,13 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
                       >
                         {elm.title}
                       </span>
-                      <i
+                      {/* <i
                         className={
                           menuNesting[0] == elm.title
                             ? "icon-chevron-right text-13 ml-10 active"
                             : "icon-chevron-right text-13 ml-10"
                         }
-                      ></i>
+                      ></i> */}
                     </div>
 
                     {elm.links &&
@@ -124,7 +124,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
                                   setMenuNesting((pre) =>
                                     pre[1] == itm.title
                                       ? [pre[0]]
-                                      : [pre[0], itm.title],
+                                      : [pre[0], itm.title]
                                   )
                                 }
                               >
