@@ -22,7 +22,7 @@ export default function BlogListpage1() {
 
       <Header />
       <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
 
         <BlogsOne />
 

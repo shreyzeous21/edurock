@@ -28,7 +28,7 @@ export default function InstractoBacomePage() {
       <Preloader />
       <Header />
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
         <PageHeading />
         <section className=" layout-pb-lg">
           <div className="container">

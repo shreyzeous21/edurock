@@ -28,7 +28,7 @@ export default function AboutPage1() {
 
       <Header />
       <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
         <About />
         <WhyCourse />
 

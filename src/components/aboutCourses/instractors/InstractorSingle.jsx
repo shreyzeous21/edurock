@@ -38,11 +38,8 @@ export default function InstractorSingle({ id }) {
                 <div className="page-header__img">
                   <img
                     style={{
-                      width: "120px",
-                      height: "120px",
-                      borderRadius: "50%",
-                      overflow: "hidden",
-                      objectFit: "cover",
+                      width: "160px",
+                      height: "50px",
                     }}
                     src={
                       pageItem.image ||
@@ -142,29 +139,7 @@ export default function InstractorSingle({ id }) {
                     } `}
                   >
                     <h4 className="text-20">Description</h4>
-                    <p className="text-light-1 mt-30">
-                      Phasellus enim magna, varius et commodo ut, ultricies
-                      vitae velit. Ut nulla tellus, eleifend euismod
-                      pellentesque vel, sagittis vel justo. In libero urna,
-                      venenatis sit amet ornare non, suscipit nec risus. Sed
-                      consequat justo non mauris pretium at tempor justo
-                      sodales. Quisque tincidunt laoreet malesuada. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur.
-                      <br />
-                      <br />
-                      This course is aimed at people interested in UI/UX Design.
-                      We’ll start from the very beginning and work all the way
-                      through, step by step. If you already have some UI/UX
-                      Design experience but want to get up to speed using Adobe
-                      XD then this course is perfect for you too!
-                      <br />
-                      <br />
-                      First, we will go over the differences between UX and UI
-                      Design. We will look at what our brief for this real-world
-                      project is, then we will learn about low-fidelity
-                      wireframes and how to make use of existing UI design kits.
-                    </p>
+                    <p className="text-light-1 mt-30">{pageItem.desc}</p>
                     <button className="button underline text-purple-1 mt-30">
                       Show More
                     </button>

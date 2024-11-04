@@ -57,11 +57,8 @@ export default function About() {
                 cras semper atincidunt egetnval
               </p>
               <div className="d-inline-block">
-                <Link
-                  to="/signup"
-                  className="button -md -purple-1 text-white mt-30"
-                >
-                  Start Learning For Free
+                <Link to="/" className="button -md -purple-1 text-white mt-30">
+                  Enroll Now
                 </Link>
               </div>
             </div>

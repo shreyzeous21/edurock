@@ -25,7 +25,7 @@ export default function BlogdetailsPage() {
 
       <Header />
       <div className="content-wrapper js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
 
         <BlogDetails id={params.id} />
 

@@ -21,7 +21,7 @@ export default function InstractorSinglePage() {
       <Preloader />
       <Header />
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
         <InstractorSingle id={params.id} />
         <FooterOne />
       </div>

@@ -21,7 +21,7 @@ export default function InstractorListPage2() {
       <Header />
       <Preloader />
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
-        <PageLinks />
+        {/* <PageLinks /> */}
         <InatractorsTwo />
         <FooterOne />
       </div>
