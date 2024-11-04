@@ -1,42 +1,56 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import { Modal, Button, Form } from "react-bootstrap";
+import "./EnrollForm.css"; // Import CSS for styling the modal
 
 function EnrollForm({ show, handleClose }) {
+  if (!show) return null; // Don't render anything if `show` is false
+
   return (
-    <Modal show={show} onHide={handleClose} centered>
-      <Modal.Header closeButton>
-        <Modal.Title>Enroll Now</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <Form>
-          <Form.Group controlId="formName">
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter your name" />
-          </Form.Group>
-          <Form.Group controlId="formEmail" className="mt-3">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter your email" />
-          </Form.Group>
-          <Form.Group controlId="formPhone" className="mt-3">
-            <Form.Label>Phone</Form.Label>
-            <Form.Control type="tel" placeholder="Enter your phone number" />
-          </Form.Group>
-          <Form.Group controlId="formMessage" className="mt-3">
-            <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" rows={3} placeholder="Your message" />
-          </Form.Group>
-        </Form>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-        <Button variant="primary" onClick={() => alert("Form submitted!")}>
-          Submit
-        </Button>
-      </Modal.Footer>
-    </Modal>
+    <div className="modal-overlay">
+      <div className="modal-content">
+        <button className="modal-close" onClick={handleClose}>
+          &times;
+        </button>
+        <h2>Enroll Now</h2>
+        <form>
+          <div className="form-group">
+            <label htmlFor="formName">Name</label>
+            <input type="text" id="formName" placeholder="Enter your name" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="formEmail">Email address</label>
+            <input type="email" id="formEmail" placeholder="Enter your email" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="formPhone">Phone</label>
+            <input
+              type="tel"
+              id="formPhone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="formMessage">Message</label>
+            <textarea id="formMessage" rows="3" placeholder="Your message" />
+          </div>
+          <div className="modal-footer">
+            <button
+              type="button"
+              onClick={handleClose}
+              className="btn-secondary"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              onClick={() => alert("Form submitted!")}
+              className="btn-primary"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 }
 
