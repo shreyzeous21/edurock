@@ -8,9 +8,14 @@ import { Link } from "react-router-dom";
 
 import { useState } from "react";
 import MobileMenu from "../component/MobileMenu";
+import EnrollForm from "./Popup";
 
 export default function Header() {
   const [activeMobileMenu, setActiveMobileMenu] = useState(false);
+  const [showEnrollForm, setShowEnrollForm] = useState(false);
+
+  const handleEnrollClick = () => setShowEnrollForm(true);
+  const handleCloseEnrollForm = () => setShowEnrollForm(false);
 
   return (
     <>
@@ -67,21 +72,20 @@ export default function Header() {
                 </div>
 
                 <div className="header-right__buttons d-flex items-center ml-30 md:d-none">
-                  {/* <Link to="/login" className="button -underline text-white">
-                    Log in
-                  </Link> */}
-                  <Link
-                    to="/contact-1"
+                  <button
                     className="button -sm -white text-dark-1 ml-30"
+                    onClick={handleEnrollClick}
                   >
                     Enroll Now
-                  </Link>
+                  </button>
                 </div>
+                {/*  */}
               </div>
             </div>
           </div>
         </div>
       </header>
+      <EnrollForm show={showEnrollForm} handleClose={handleCloseEnrollForm} />
     </>
   );
 }

@@ -78,7 +78,7 @@ export default function CourceCard({ data, index }) {
                   <img src="assets/img/coursesCards/icons/2.svg" alt="icon" />
                 </div>
                 <div className="text-14 lh-1">{`${Math.floor(
-                  data.duration / 60,
+                  data.duration / 60
                 )}h ${Math.floor(data.duration % 60)}m`}</div>
               </div>
 
@@ -99,8 +99,8 @@ export default function CourceCard({ data, index }) {
               <div className="coursesCard-footer__price">
                 {data.paid ? (
                   <>
-                    <div>${data.originalPrice}</div>
-                    <div>${data.discountedPrice}</div>
+                    <div>Rs {data.originalPrice}</div>
+                    <div>Rs {data.discountedPrice}</div>
                   </>
                 ) : (
                   <>
