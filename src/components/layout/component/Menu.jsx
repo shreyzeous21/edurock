@@ -37,11 +37,8 @@ export default function Menu({ allClasses, headerPosition }) {
         <div className="mobile-bg js-mobile-bg"></div>
 
         <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-          <Link to="/login" className="text-dark-1">
-            Log in
-          </Link>
-          <Link to="/signup" className="text-dark-1 ml-30">
-            Sign Up
+          <Link to="/contact-1" className="text-dark-1 ml-30">
+            Enroll Now
           </Link>
         </div>
 
@@ -191,7 +188,7 @@ export default function Menu({ allClasses, headerPosition }) {
                       </ul>
                     </div>
 
-                    <div className="col">
+                    {/* <div className="col">
                       <h4 className="text-17 fw-500 mb-20">Dashboard Pages</h4>
 
                       <ul className="mega__list">
@@ -210,9 +207,9 @@ export default function Menu({ allClasses, headerPosition }) {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
 
-                    <div className="col">
+                    {/* <div className="col">
                       <h4 className="text-17 fw-500 mb-20">Popular Courses</h4>
 
                       <ul className="mega__list">
@@ -231,7 +228,7 @@ export default function Menu({ allClasses, headerPosition }) {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="mega-banner bg-purple-1 ml-40">
@@ -317,7 +314,7 @@ export default function Menu({ allClasses, headerPosition }) {
               </ul> */}
             </li>
 
-            <li className="menu-item-has-children">
+            {/* <li className="menu-item-has-children">
               <Link
                 to="/shop-list"
                 className={submenu == "Shop" ? "activeMenu" : "inActiveMenu"}
@@ -326,9 +323,9 @@ export default function Menu({ allClasses, headerPosition }) {
               </Link>
               <ul className="subnav">
                 <li className="menu__backButton js-nav-list-back">
-                  {/* <Link to="#">
+                  <Link to="#">
                     <i className="icon-chevron-left text-13 mr-10"></i> Shop
-                  </Link> */}
+                  </Link>
                 </li>
 
                 {menuList[4].links[2].links.map((elm, i) => (
@@ -346,7 +343,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   </li>
                 ))}
               </ul>
-            </li>
+            </li> */}
 
             <li>
               <Link
@@ -363,19 +360,20 @@ export default function Menu({ allClasses, headerPosition }) {
             <li className="menu-item-has-children">
               <Link
                 data-barba
-                to="#"
+                to="/help-center"
                 className={menuItem == "Pages" ? "activeMenu" : ""}
               >
-                More <i className="icon-chevron-right text-13 ml-10"></i>
+                Help Center
+                {/* <i className="icon-chevron-right text-13 ml-10"></i> */}
               </Link>
 
-              <ul className="subnav">
-                {/* <li className="menu__backButton js-nav-list-back">
+              {/* <ul className="subnav"> */}
+              {/* <li className="menu__backButton js-nav-list-back">
                   <Link to="#">
                     <i className="icon-chevron-left text-13 mr-10"></i> Pages
                   </Link>
                 </li> */}
-                {/* <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                   <Link
                     to="#"
                     className={
@@ -410,7 +408,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   </ul>
                 </li> */}
 
-                {/* <li className="menu-item-has-children">
+              {/* <li className="menu-item-has-children">
                   <Link
                     to="#"
                     className={
@@ -444,7 +442,7 @@ export default function Menu({ allClasses, headerPosition }) {
                   </ul>
                 </li> */}
 
-                {menuList[4].links
+              {/* {menuList[4].links
                   .filter((el) => el.href)
                   .map((elm, i) => (
                     <li
@@ -459,8 +457,8 @@ export default function Menu({ allClasses, headerPosition }) {
                         {elm.label}
                       </Link>
                     </li>
-                  ))}
-              </ul>
+                  ))} */}
+              {/* </ul> */}
             </li>
           </ul>
         </div>

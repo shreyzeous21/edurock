@@ -49,10 +49,10 @@ export default function Header() {
                   {/* search toggle end */}
 
                   {/* cart toggle start */}
-                  <CartToggle
+                  {/* <CartToggle
                     parentClassess={"relative ml-30 xl:ml-20"}
                     allClasses={"d-flex items-center text-white"}
-                  />
+                  /> */}
                   {/* cart toggle end */}
 
                   <div className="d-none xl:d-block ml-20">
@@ -67,14 +67,14 @@ export default function Header() {
                 </div>
 
                 <div className="header-right__buttons d-flex items-center ml-30 md:d-none">
-                  <Link to="/login" className="button -underline text-white">
+                  {/* <Link to="/login" className="button -underline text-white">
                     Log in
-                  </Link>
+                  </Link> */}
                   <Link
-                    to="/signup"
+                    to="/contact-1"
                     className="button -sm -white text-dark-1 ml-30"
                   >
-                    Sign up
+                    Enroll Now
                   </Link>
                 </div>
               </div>

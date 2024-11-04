@@ -44,24 +44,24 @@ export const menuList = [
         title: "Top Universities",
         links: [
           { href: "/courses/3", label: "Course Single v1" },
-          { href: "/courses-single-2/2", label: "Course Single v2" },
-          { href: "/courses-single-3/3", label: "Course Single v3" },
-          { href: "/courses-single-4/4", label: "Course Single v4" },
-          { href: "/courses-single-5/4", label: "Course Single v5" },
-          { href: "/courses-single-6/7", label: "Course Single v6" },
-          { href: "/course-cart", label: "Course Cart" },
-          { href: "/course-checkout", label: "Course Checkout" },
+          // { href: "/courses-single-2/2", label: "Course Single v2" },
+          // { href: "/courses-single-3/3", label: "Course Single v3" },
+          // { href: "/courses-single-4/4", label: "Course Single v4" },
+          // { href: "/courses-single-5/4", label: "Course Single v5" },
+          // { href: "/courses-single-6/7", label: "Course Single v6" },
+          // { href: "/course-cart", label: "Course Cart" },
+          // { href: "/course-checkout", label: "Course Checkout" },
         ],
       },
       {
         title: "About Courses",
         links: [
-          { href: "/lesson-single-1", label: "Lesson Page v1" },
-          { href: "/lesson-single-2", label: "Lesson Page v2" },
-          { href: "/instructors-list-1", label: "Instructors List v1" },
-          { href: "/instructors-list-2", label: "Instructors List v2" },
+          // { href: "/lesson-single-1", label: "Lesson Page v1" },
+          // { href: "/lesson-single-2", label: "Lesson Page v2" },
+          { href: "/instructors-list-1", label: "Collage Courses" },
+          // { href: "/instructors-list-2", label: "Instructors List v2" },
           { href: "/instructors/1", label: "Instructors Single" },
-          { href: "/instructor-become", label: "Become an Instructor" },
+          // { href: "/instructor-become", label: "Become an Instructor" },
         ],
       },
       {
@@ -131,17 +131,11 @@ export const menuList = [
     links: [
       {
         title: "About Us",
-        links: [
-          { href: "/about-1", label: "About 1" },
-          { href: "/about-2", label: "About 2" },
-        ],
+        links: [{ href: "/about-1", label: "About 1" }],
       },
       {
         title: "Contact",
-        links: [
-          { href: "/contact-1", label: "Contact 1" },
-          { href: "/contact-2", label: "Contact 2" },
-        ],
+        links: [{ href: "/contact-1", label: "Contact 1" }],
       },
       {
         title: "Shop",
@@ -154,12 +148,12 @@ export const menuList = [
         ],
       },
       { href: "/pricing", label: "Membership plans" },
-      // { href: "/not-found", label: "404 Page" },
+      { href: "/not-found", label: "404 Page" },
       { href: "/terms", label: "FAQs" },
       { href: "/help-center", label: "Help Center" },
       { href: "/login", label: "Login" },
       { href: "/signup", label: "Register" },
-      // { href: "/ui-elements", label: "UI Elements" },
+      { href: "/ui-elements", label: "UI Elements" },
     ],
   },
 ];
