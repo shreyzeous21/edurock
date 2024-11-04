@@ -2,45 +2,45 @@ export const topCategories = [
   {
     id: 1,
     iconSrc: "/assets/img/featureCards/1.svg",
-    title: "Design Creative",
+    title: "Online MBA",
     text: "573+ Courses",
   },
   {
     id: 2,
     iconSrc: "/assets/img/featureCards/2.svg",
-    title: "Sales Marketing",
+    title: "Online MCA",
     text: "565+ Courses",
   },
   {
     id: 3,
     iconSrc: "/assets/img/featureCards/3.svg",
-    title: "Development IT",
+    title: "Online M-Tech",
     text: "126+ Courses",
   },
   {
     id: 4,
     iconSrc: "/assets/img/featureCards/4.svg",
-    title: "Engineering Architecture",
+    title: "Online MA",
     text: "35+ Courses",
   },
   {
     id: 5,
     iconSrc: "/assets/img/featureCards/5.svg",
-    title: "Personal Development",
+    title: "Distance MBA",
     text: "908+ Courses",
   },
   {
     id: 6,
     iconSrc: "/assets/img/featureCards/6.svg",
-    title: "Finance Accounting",
+    title: "Distance MCA",
     text: "129+ Courses",
   },
-  // {
-  //   id:7 ,
-  //   iconSrc: "/assets/img/featureCards/4.svg",
-  //   title: "Engineering Architecture",
-  //   text: "35+ Courses",
-  // },
+  {
+    id:7 ,
+    iconSrc: "/assets/img/featureCards/4.svg",
+    title: "Engineering Architecture",
+    text: "35+ Courses",
+  },
 ];
 
 export const topCategoriesTwo = [
