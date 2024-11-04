@@ -43,7 +43,22 @@ export const menuList = [
       {
         title: "Top Universities",
         links: [
-          { href: "/courses/3", label: "Course Single v1" },
+          { href: "/courses/1", label: "Amity University" },
+          {
+            href: "/courses/2",
+            label: "Lovely Professional University",
+          },
+          { href: "/courses/3", label: "DY Patil University" },
+          { href: "/courses/4", label: "Manipal University" },
+          { href: "/courses/5", label: "Uttaranchal University" },
+          {
+            href: "/courses/6",
+            label: "London Metropolitan University",
+          },
+          { href: "/courses/7", label: "Jain University" },
+          { href: "/courses/8", label: "Shoolini University" },
+          { href: "/courses/9 ", label: "NMIMS University" },
+
           // { href: "/courses-single-2/2", label: "Course Single v2" },
           // { href: "/courses-single-3/3", label: "Course Single v3" },
           // { href: "/courses-single-4/4", label: "Course Single v4" },

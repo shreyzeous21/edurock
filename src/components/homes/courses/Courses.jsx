@@ -10,7 +10,7 @@ export default function Courses() {
       setFiltered();
     } else {
       const filteredData = coursesData.filter(
-        (elm) => elm.category == category,
+        (elm) => elm.category == category
       );
       setFiltered(filteredData);
     }
@@ -22,7 +22,7 @@ export default function Courses() {
         <div className="col-auto">
           <div className="sectionTitle ">
             <h2 className="sectionTitle__title sm:text-24">
-              Our Most Popular Courses
+              Our Top Universities
             </h2>
 
             <p className="sectionTitle__text ">
@@ -31,7 +31,7 @@ export default function Courses() {
           </div>
         </div>
       </div>
-      <div className="tabs__controls flex-wrap  pt-50 d-flex justify-center x-gap-10 js-tabs-controls">
+      {/* <div className="tabs__controls flex-wrap  pt-50 d-flex justify-center x-gap-10 js-tabs-controls">
         {catagories.map((elm, i) => (
           <div onClick={() => setCategory(elm)} key={i}>
             <button
@@ -45,7 +45,7 @@ export default function Courses() {
             </button>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div
         className="pt-60 m-auto row y-gap-30 container pl-0 pr-0"
