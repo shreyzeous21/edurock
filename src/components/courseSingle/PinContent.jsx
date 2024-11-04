@@ -59,11 +59,9 @@ export default function PinContent({ pageItem }) {
               {pageItem.paid ? (
                 <>
                   <div className="text-24 lh-1 text-dark-1 fw-500">
-                    Rs {pageItem.discountedPrice}
+                    Fee: ₹{pageItem.discountedPrice}
                   </div>
-                  <div className="lh-1 line-through">
-                    Rs {pageItem.originalPrice}
-                  </div>
+                  {/* <div className="lh-1 ">Rs {pageItem.originalPrice}</div> */}
                 </>
               ) : (
                 <div className="text-24 lh-1 text-dark-1 fw-500">Free</div>
@@ -176,7 +174,7 @@ export default function PinContent({ pageItem }) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
-      <EnrollForm show={showEnrollForm} handleClose={handleCloseEnrollForm} />
+      {/* <EnrollForm show={showEnrollForm} handleClose={handleCloseEnrollForm} /> */}
     </>
   );
 }

@@ -99,8 +99,8 @@ export default function CourceCard({ data, index }) {
               <div className="coursesCard-footer__price">
                 {data.paid ? (
                   <>
-                    <div>Rs {data.originalPrice}</div>
-                    <div>Rs {data.discountedPrice}</div>
+                    <div>Fee: ₹{data.originalPrice}</div>
+                    {/* <div>Fee: {data.discountedPrice}</div> */}
                   </>
                 ) : (
                   <>
