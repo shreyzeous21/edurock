@@ -18,6 +18,7 @@ import FooterOne from "@/components/layout/footers/FooterOne";
 import Preloader from "@/components/common/Preloader";
 
 import MetaComponent from "@/components/common/MetaComponent";
+import University from "@/components/homes/categories/University";
 
 const metadata = {
   title: "Edurock - Professional LMS Online Education Course PLatform",
@@ -36,12 +37,13 @@ export default function HomePage1() {
         <HomeHero />
         <Brands />
         <Categories />
+        <University />
         <Courses />
         <TestimonialsOne />
         <FeaturesOne />
         <WhyCourse />
         <Instructors />
-        <GetApp />
+        {/* <GetApp /> */}
         <Blog />
         <Join />
         <FooterOne />

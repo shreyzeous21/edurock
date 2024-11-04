@@ -43,22 +43,7 @@ export const menuList = [
       {
         title: "Top Universities",
         links: [
-          { href: "/courses/1", label: "Amity University" },
-          {
-            href: "/courses/2",
-            label: "Lovely Professional University",
-          },
-          { href: "/courses/3", label: "DY Patil University" },
-          { href: "/courses/4", label: "Manipal University" },
-          { href: "/courses/5", label: "Uttaranchal University" },
-          {
-            href: "/courses/6",
-            label: "London Metropolitan University",
-          },
-          { href: "/courses/7", label: "Jain University" },
-          { href: "/courses/8", label: "Shoolini University" },
-          { href: "/courses/9 ", label: "NMIMS University" },
-
+          // { href: "/courses/3", label: "Course Single v1" },
           // { href: "/courses-single-2/2", label: "Course Single v2" },
           // { href: "/courses-single-3/3", label: "Course Single v3" },
           // { href: "/courses-single-4/4", label: "Course Single v4" },
@@ -73,7 +58,7 @@ export const menuList = [
         links: [
           // { href: "/lesson-single-1", label: "Lesson Page v1" },
           // { href: "/lesson-single-2", label: "Lesson Page v2" },
-          { href: "/instructors-list-1", label: "Collage Courses" },
+          { href: "/instructors-list-1", label: "Collage" },
           // { href: "/instructors-list-2", label: "Instructors List v2" },
           { href: "/instructors/1", label: "Instructors Single" },
           // { href: "/instructor-become", label: "Become an Instructor" },

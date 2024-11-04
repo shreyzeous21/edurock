@@ -36,9 +36,66 @@ export const topCategories = [
     text: "129+ Courses",
   },
   {
-    id:7 ,
+    id: 7,
     iconSrc: "/assets/img/featureCards/4.svg",
     title: "Engineering Architecture",
+    text: "35+ Courses",
+  },
+];
+
+export const topUniversities = [
+  {
+    id: 1,
+    title: "Amity University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 2,
+    title: "Lovely Professional University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 3,
+    title: "DY Patil University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 4,
+    title: "Manipal University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 5,
+    title: "Uttaranchal University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 6,
+    title: "London Metropolitan University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 7,
+    title: "Jain University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 8,
+    title: "Shoolini University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    text: "35+ Courses",
+  },
+  {
+    id: 9,
+    title: "NMIMS University",
+    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
 ];
