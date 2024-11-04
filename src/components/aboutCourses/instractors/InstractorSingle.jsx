@@ -54,12 +54,12 @@ export default function InstractorSingle({ id }) {
                   <h1 className="text-30 lh-14 fw-700 text-white">
                     {pageItem.name}
                   </h1>
-                  <div className="text-white">{pageItem.role}</div>
+                  {/* <div className="text-white">{pageItem.role}</div> */}
                   <div className="d-flex x-gap-20 pt-15">
-                    <div className="d-flex items-center text-white">
+                    {/* <div className="d-flex items-center text-white">
                       <div className="icon-star mr-10"></div>
                       <div className="text-13 lh-1">Instructor Rating</div>
-                    </div>
+                    </div> */}
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-video-file mr-10"></div>
@@ -79,7 +79,8 @@ export default function InstractorSingle({ id }) {
                     <div className="d-flex items-center text-white">
                       <div className="icon-play mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.courses || pageItem.courseCount || 453} Course
+                        {pageItem.courses || pageItem.courseCount || 453}{" "}
+                        Programs
                       </div>
                     </div>
                   </div>
@@ -140,9 +141,9 @@ export default function InstractorSingle({ id }) {
                   >
                     <h4 className="text-20">Description</h4>
                     <p className="text-light-1 mt-30">{pageItem.desc}</p>
-                    <button className="button underline text-purple-1 mt-30">
+                    {/* <button className="button underline text-purple-1 mt-30">
                       Show More
-                    </button>
+                    </button> */}
                   </div>
 
                   <div
