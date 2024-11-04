@@ -21,7 +21,15 @@ export const menuList = [
       {
         title: "Course List Layouts",
         links: [
-          { href: "/courses-list-1", label: "Course List v1" },
+          { href: "/courses-list-1", label: "Online MBA" },
+          { href: "/courses-list-1", label: "Online MCA" },
+          { href: "/courses-list-1", label: "Online M-Tech" },
+          { href: "/courses-list-1", label: "Online MA" },
+          { href: "/courses-list-1", label: "Distance MBA" },
+          { href: "/courses-list-1", label: "Distance MCA" },
+          { href: "/courses-list-1", label: "Distance M-Tech" },
+          { href: "/courses-list-1", label: "Distance MA" },
+
           // { href: "/courses-list-2", label: "Course List v2" },
           // { href: "/courses-list-3", label: "Course List v3" },
           // { href: "/courses-list-4", label: "Course List v4" },
@@ -33,8 +41,7 @@ export const menuList = [
         ],
       },
       {
-        title: "Course Single Layouts",
-
+        title: "Top Universities",
         links: [
           { href: "/courses/3", label: "Course Single v1" },
           { href: "/courses-single-2/2", label: "Course Single v2" },

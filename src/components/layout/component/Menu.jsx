@@ -129,9 +129,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 <div className="mega__menu">
                   <div className="row x-gap-40">
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">
-                        Course List Layouts
-                      </h4>
+                      <h4 className="text-17 fw-500 mb-20">Explore Programs</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[0].links.map((elm, i) => (
@@ -152,9 +150,7 @@ export default function Menu({ allClasses, headerPosition }) {
                     </div>
 
                     <div className="col">
-                      <h4 className="text-17 fw-500 mb-20">
-                        Course Single Layouts
-                      </h4>
+                      <h4 className="text-17 fw-500 mb-20">Top Universities</h4>
 
                       <ul className="mega__list">
                         {menuList[1].links[1].links.map((elm, i) => (
