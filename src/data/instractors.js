@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
     id: 1,
-    name: "Floyd Miles",
+    name: "Amity University",
     role: "President of Sales",
     image: "/assets/img/team/1.png",
     category: "Animation",
@@ -30,7 +30,7 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: "Cameron Williamson",
+    name: "Lovely Professional University",
     role: "Web Designer",
     image: "/assets/img/team/2.png",
     category: "Design",
@@ -59,7 +59,7 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: "Brooklyn Simmons",
+    name: "DY Patil University",
     role: "Dog Trainer",
     image: "/assets/img/team/3.png",
     category: "Illustration",
@@ -88,7 +88,7 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "Wade Warren",
+    name: "Manipal University",
     role: "Marketing Coordinator",
     image: "/assets/img/team/4.png",
     category: "Illustration",
@@ -117,7 +117,7 @@ export const teamMembers = [
   },
   {
     id: 5,
-    name: "Bessie Cooper",
+    name: "Uttaranchal University",
     role: "Marketing Coordinator",
     image: "/assets/img/team/5.png",
     category: "Illustration",
@@ -146,7 +146,7 @@ export const teamMembers = [
   },
   {
     id: 6,
-    name: "Albert Flores",
+    name: "London Metropolitan University",
     role: "Dog Trainer",
     image: "/assets/img/team/6.png",
     category: "Animation",
@@ -175,7 +175,7 @@ export const teamMembers = [
   },
   {
     id: 7,
-    name: "Cody Fisher",
+    name: "Jain University",
     role: "Web Designer",
     image: "/assets/img/team/7.png",
     category: "Design",
@@ -204,7 +204,7 @@ export const teamMembers = [
   },
   {
     id: 8,
-    name: "Theresa Webb",
+    name: "Shoolini University",
     role: "President of Sales",
     image: "/assets/img/team/8.png",
     category: "Business",
@@ -234,7 +234,7 @@ export const teamMembers = [
 
   {
     id: 9,
-    name: "Floyd Miles",
+    name: "NMIMS University",
     role: "President of Sales",
     image: "/assets/img/team/1.png",
     category: "Illustration",

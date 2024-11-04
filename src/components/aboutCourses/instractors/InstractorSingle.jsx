@@ -90,7 +90,7 @@ export default function InstractorSingle({ id }) {
 
                 <div className="d-flex items-center mt-30">
                   <button className="button -md -green-1 text-dark-1">
-                    Send Message
+                    Enroll now
                   </button>
 
                   <div className="d-flex items-center x-gap-15 text-white ml-25">
@@ -253,7 +253,7 @@ export default function InstractorSingle({ id }) {
                                     />
                                   </div>
                                   <div className="text-14 lh-1">{`${Math.floor(
-                                    elm.duration / 60,
+                                    elm.duration / 60
                                   )}h ${Math.floor(elm.duration % 60)}m`}</div>
                                 </div>
 
