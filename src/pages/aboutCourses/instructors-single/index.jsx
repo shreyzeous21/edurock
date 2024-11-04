@@ -9,7 +9,7 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "Instractors-single || Edurock - Professional LMS Online Education Course ReactJS Template",
+    "Universities || Edurock - Professional LMS Online Education Course ReactJS Template",
   description:
     "Elevate your e-learning content with Edurock, the most impressive LMS template for online courses, education and LMS platforms.",
 };

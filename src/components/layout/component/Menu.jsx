@@ -4,6 +4,7 @@ import MobileFooter from "./MobileFooter";
 
 import { menuList } from "@/data/menu";
 import { useLocation } from "react-router-dom";
+import { topUniversities } from "@/data/topCategories";
 
 export default function Menu({ allClasses, headerPosition }) {
   const [menuItem, setMenuItem] = useState("");
@@ -150,17 +151,26 @@ export default function Menu({ allClasses, headerPosition }) {
                       <h4 className="text-17 fw-500 mb-20">Top Universities</h4>
 
                       <ul className="mega__list">
-                        {menuList[1].links[1].links.map((elm, i) => (
-                          <li
-                            key={i}
-                            className={
-                              pathname.split("/")[1] == elm.href.split("/")[1]
-                                ? "activeMenu"
-                                : "inActiveMegaMenu"
-                            }
-                          >
-                            <Link data-barba to={elm.href}>
-                              {elm.label}
+                        {topUniversities.map((university) => (
+                          <li key={university.id} className="inActiveMegaMenu">
+                            <Link
+                              data-barba
+                              to={`/instructors/${university.id}`}
+                            >
+                              <div className="d-flex align-items-center">
+                                <img
+                                  src={university.iconSrc}
+                                  alt={`${university.title} logo`}
+                                  style={{
+                                    width: "70px",
+                                    height: "24px",
+                                    marginRight: "8px",
+                                  }}
+                                />
+                                <span className="fw-500">
+                                  {university.title}
+                                </span>
+                              </div>
                             </Link>
                           </li>
                         ))}
