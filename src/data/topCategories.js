@@ -47,55 +47,55 @@ export const topUniversities = [
   {
     id: 1,
     title: "Amity University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/1.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 2,
     title: "Lovely Professional University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/2.jpg", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 3,
     title: "DY Patil University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/3.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 4,
     title: "Manipal University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/4.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 5,
     title: "Uttaranchal University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/5.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 6,
     title: "London Metropolitan University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/6.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 7,
     title: "Jain University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/7.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 8,
     title: "Shoolini University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/8.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
   {
     id: 9,
     title: "NMIMS University",
-    iconSrc: "/assets/img/featureCards/4.svg", // Replace with the actual path to the logo
+    iconSrc: "/assets/img/team/9.png", // Replace with the actual path to the logo
     text: "35+ Courses",
   },
 ];

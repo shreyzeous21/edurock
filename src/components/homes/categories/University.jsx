@@ -78,7 +78,7 @@ const University = () => {
                           {item.title.split(" ")[0]} <br />
                           {item.title.split(" ")[1] && item.title.split(" ")[1]}
                         </div>
-                        <div className="featureCard__text">{item.text}</div>
+                        {/* <div className="featureCard__text">{item.text}</div> */}
                       </div>
                     </Link>
                   </SwiperSlide>
