@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useContextElement } from "@/context/Context";
 import ModalVideoComponent from "../common/ModalVideo";
+import EnrollForm from "../layout/headers/Popup";
 
 export default function PinContent({ pageItem }) {
   const { isAddedToCartCourses, addCourseToCart } = useContextElement();
   const [isOpen, setIsOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [showEnrollForm, setShowEnrollForm] = useState(false);
+
   // useEffect hook to update the screen width when the window is resized
   useEffect(() => {
     const handleResize = () => {
@@ -19,6 +22,9 @@ export default function PinContent({ pageItem }) {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const handleEnrollClick = () => setShowEnrollForm(true);
+  const handleCloseEnrollForm = () => setShowEnrollForm(false);
 
   return (
     <>
@@ -53,30 +59,22 @@ export default function PinContent({ pageItem }) {
               {pageItem.paid ? (
                 <>
                   <div className="text-24 lh-1 text-dark-1 fw-500">
-                    ${pageItem.discountedPrice}
+                    Rs {pageItem.discountedPrice}
                   </div>
                   <div className="lh-1 line-through">
-                    ${pageItem.originalPrice}
+                    Rs {pageItem.originalPrice}
                   </div>
                 </>
               ) : (
-                <>
-                  <div className="text-24 lh-1 text-dark-1 fw-500">Free</div>
-                  <div></div>
-                </>
+                <div className="text-24 lh-1 text-dark-1 fw-500">Free</div>
               )}
             </div>
 
             <button
               className="button -md -purple-1 text-white w-1/1"
-              onClick={() => addCourseToCart(pageItem.id)}
+              onClick={handleEnrollClick}
             >
-              {isAddedToCartCourses(pageItem.id)
-                ? "Already Added"
-                : "Add To Cart"}
-            </button>
-            <button className="button -md -outline-dark-1 text-dark-1 w-1/1 mt-10">
-              Buy Now
+              Enroll Now
             </button>
 
             <div className="text-14 lh-1 text-center mt-30">
@@ -178,6 +176,7 @@ export default function PinContent({ pageItem }) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
+      <EnrollForm show={showEnrollForm} handleClose={handleCloseEnrollForm} />
     </>
   );
 }
