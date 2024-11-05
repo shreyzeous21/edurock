@@ -180,7 +180,7 @@ const HomeHero = () => {
                   <img
                     className="js-mouse-move"
                     data-move="70"
-                    src={"/assets/img/masthead/2.png"}
+                    src={"/assets/img/masthead/2.jpg"}
                     style={{ objectFit: "cover" }}
                     alt="image"
                   />
@@ -209,7 +209,7 @@ const HomeHero = () => {
                   <img
                     className="js-mouse-move"
                     data-move="40"
-                    src={"/assets/img/masthead/3.png"}
+                    src={"/assets/img/masthead/3.jpg"}
                     style={{ objectFit: "cover" }}
                     alt="image"
                   />
