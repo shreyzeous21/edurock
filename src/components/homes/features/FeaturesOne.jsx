@@ -46,8 +46,8 @@ export default function LearnNewSkill() {
               </div>
 
               <div className="d-inline-block mt-30">
-                <Link to="/signup" className="button -md -dark-1 text-white">
-                  Join Free
+                <Link to="#" className="button -md -dark-1 text-white">
+                  Enroll Now
                 </Link>
               </div>
             </div>

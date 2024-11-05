@@ -30,13 +30,13 @@ export default function About() {
             <div className="col-lg-6 pr-50 sm:pr-15">
               <div className="composition -type-8">
                 <div className="-el-1">
-                  <img src="/assets/img/about-1/1.png" alt="image" />
+                  <img src="/assets/img/about-1/1.jpg" alt="image" />
                 </div>
                 <div className="-el-2">
-                  <img src="/assets/img/about-1/2.png" alt="image" />
+                  <img src="/assets/img/about-1/2.jpg" alt="image" />
                 </div>
                 <div className="-el-3">
-                  <img src="/assets/img/about-1/3.png" alt="image" />
+                  <img src="/assets/img/about-1/3.jpg" alt="image" />
                 </div>
               </div>
             </div>
@@ -46,16 +46,15 @@ export default function About() {
                 Welcome to Edurock Enhance your skills with best Online courses
               </h2>
               <p className="text-dark-1 mt-30">
-                You can start and finish one of these popular courses in under a
-                day – for free! Check out the list below.. Take the course for
-                free
+                Welcome to Edurock, where education meets innovation, and
+                learning becomes a journey filled with excitement and
+                possibility. Our mission is to reshape the educational
+                experience by merging state-of-the-art technology with a
+                relentless pursuit of excellence, all to empower professionals
+                and lifelong learners on their paths to career success and
+                personal growth.
               </p>
-              <p className="pr-50 lg:pr-0 mt-25">
-                Neque convallis a cras semper auctor. Libero id faucibus nisl
-                tincidunt egetnvallis a cras semper auctonvallis a cras semper
-                aucto. Neque convallis a cras semper auctor. Liberoe convallis a
-                cras semper atincidunt egetnval
-              </p>
+              <p className="pr-50 lg:pr-0 mt-25"></p>
               <div className="d-inline-block">
                 <Link to="/" className="button -md -purple-1 text-white mt-30">
                   Enroll Now

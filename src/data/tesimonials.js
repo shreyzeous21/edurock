@@ -4,44 +4,32 @@ export const testimonials = [
     imageSrc: "/assets/img/testimonials/1.png",
     name: "Courtney Henry",
     position: "Web Designer",
-    comment: "Great Work",
-    description: `I think Edurock is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "A Game Changer!",
+    description: `Edurock transformed my career with its exceptional design and easy customization. It’s the perfect tool for creating standout projects with ease and precision.`,
   },
   {
     id: 1,
     imageSrc: "/assets/img/testimonials/2.png",
     name: "Ronald Richards",
     position: "President of Sales",
-    comment: "Great Work",
-    description: `I think Edurock is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "Exceptional Experience",
+    description: `The Edurock platform has elevated our team's work. It’s intuitive, powerful, and the support is always on point, making it ideal for professionals at any level.`,
   },
   {
     id: 2,
     imageSrc: "/assets/img/testimonials/3.png",
     name: "Annette Black",
     position: "Nursing Assistant",
-    comment: "Great Work",
-    description: `I think Edurock is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "Simply Outstanding",
+    description: `Edurock is perfect for professionals seeking simplicity and efficiency. It offers everything I need to improve my skills and confidence with ease and support.`,
   },
   {
     id: 3,
     imageSrc: "/assets/img/testimonials/4.png",
-    name: "Courtney Henry",
-    position: "Web Designer",
-    comment: "Great Work",
-    description: `I think Edurock is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    name: "Alexandra Lee",
+    position: "Freelance Writer",
+    comment: "Highly Recommended",
+    description: `I’ve used various platforms, but Edurock stands out for its smooth workflow, customization, and user-friendly design, making it my top choice for project creation.`,
   },
 ];
 

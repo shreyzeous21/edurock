@@ -33,7 +33,7 @@ export default function AboutPage1() {
         <WhyCourse />
 
         <TestimonialsOne />
-        <Instructors />
+        {/* <Instructors /> */}
         <Brands />
 
         <FooterOne />

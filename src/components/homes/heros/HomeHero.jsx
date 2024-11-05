@@ -157,7 +157,7 @@ const HomeHero = () => {
                     className="js-mouse-move"
                     data-move="40"
                     style={{ objectFit: "cover" }}
-                    src={"/assets/img/masthead/1.png"}
+                    src={"/assets/img/masthead/1.jpg  "}
                     alt="image"
                   />
                   <div

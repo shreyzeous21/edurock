@@ -42,7 +42,7 @@ export default function HomePage1() {
         <TestimonialsOne />
         <FeaturesOne />
         <WhyCourse />
-        <Instructors />
+        {/* <Instructors /> */}
         {/* <GetApp /> */}
         <Blog />
         <Join />
