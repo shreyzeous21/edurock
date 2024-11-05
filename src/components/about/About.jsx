@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
+import Enroll from "../Enroll";
 export default function About() {
+  const [isEnrollModalOpen, setEnrollModalOpen] = useState(false);
+
+  const handleEnrollClick = () => {
+    setEnrollModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setEnrollModalOpen(false); // Close the modal
+  };
   return (
     <>
       <section className="page-header -type-1">
@@ -56,14 +66,18 @@ export default function About() {
               </p>
               <p className="pr-50 lg:pr-0 mt-25"></p>
               <div className="d-inline-block">
-                <Link to="/" className="button -md -purple-1 text-white mt-30">
+                <button
+                  onClick={handleEnrollClick}
+                  className="button -md -purple-1 text-white mt-30"
+                >
                   Enroll Now
-                </Link>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Enroll isOpen={isEnrollModalOpen} onClose={closeModal} />
     </>
   );
 }

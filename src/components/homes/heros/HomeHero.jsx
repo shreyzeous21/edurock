@@ -1,7 +1,8 @@
 import gsap from "gsap";
 import { Link } from "react-router-dom";
 import { ShapeRendering } from "../../../svg/index";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import Enroll from "@/components/Enroll";
 
 const masthead_info = [
   {
@@ -72,6 +73,16 @@ const HomeHero = () => {
     parallaxIt();
   }, []);
 
+  const [isEnrollModalOpen, setEnrollModalOpen] = useState(false);
+
+  const handleEnrollClick = () => {
+    setEnrollModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setEnrollModalOpen(false); // Close the modal
+  };
+
   return (
     <>
       <section className="masthead -type-1 js-mouse-move-container">
@@ -106,13 +117,12 @@ const HomeHero = () => {
                   className="masthead__buttons row x-gap-10 y-gap-10"
                 >
                   <div className="col-12 col-sm-auto">
-                    <Link
-                      data-barba
-                      to="#"
+                    <button
                       className="button -md -purple-1 text-white"
+                      onClick={handleEnrollClick}
                     >
                       Enroll Now
-                    </Link>
+                    </button>
                   </div>
                   {/* <div className="col-12 col-sm-auto">
                     <Link
@@ -243,6 +253,7 @@ const HomeHero = () => {
         <ShapeRendering />
         {/* animated shape end */}
       </section>
+      <Enroll isOpen={isEnrollModalOpen} onClose={closeModal} />
     </>
   );
 };

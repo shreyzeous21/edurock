@@ -10,6 +10,7 @@ import {
 } from "@/data/instractors";
 
 import { Link } from "react-router-dom";
+import Enroll from "@/components/Enroll";
 export default function InstractorSingle({ id }) {
   const [activeTab, setActiveTab] = useState(1);
   const [pageItem, setPageItem] = useState(teamMembers[0]);
@@ -26,6 +27,16 @@ export default function InstractorSingle({ id }) {
       setPageItem(filtered);
     }
   }, []);
+
+  const [isEnrollModalOpen, setEnrollModalOpen] = useState(false);
+
+  const handleEnrollClick = () => {
+    setEnrollModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setEnrollModalOpen(false); // Close the modal
+  };
 
   return (
     <>
@@ -89,7 +100,10 @@ export default function InstractorSingle({ id }) {
                 </div>
 
                 <div className="d-flex items-center mt-30">
-                  <button className="button -md -green-1 text-dark-1">
+                  <button
+                    className="button -md -green-1 text-dark-1"
+                    onClick={handleEnrollClick}
+                  >
                     Enroll now
                   </button>
 
@@ -280,6 +294,7 @@ export default function InstractorSingle({ id }) {
           </div>
         </div>
       </div>
+      <Enroll isOpen={isEnrollModalOpen} onClose={closeModal} />
     </>
   );
 }

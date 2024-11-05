@@ -8,9 +8,19 @@ import { Link } from "react-router-dom";
 
 import { useState } from "react";
 import MobileMenu from "../component/MobileMenu";
+import Enroll from "@/components/Enroll";
 
 export default function Header() {
   const [activeMobileMenu, setActiveMobileMenu] = useState(false);
+  const [isEnrollModalOpen, setEnrollModalOpen] = useState(false);
+
+  const handleEnrollClick = () => {
+    setEnrollModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setEnrollModalOpen(false); // Close the modal
+  };
 
   return (
     <>
@@ -67,7 +77,10 @@ export default function Header() {
                 </div>
 
                 <div className="header-right__buttons d-flex items-center ml-30 md:d-none">
-                  <button className="button -sm -white text-dark-1 ml-30">
+                  <button
+                    className="button -sm -white text-dark-1 ml-30"
+                    onClick={handleEnrollClick}
+                  >
                     Enroll Now
                   </button>
                 </div>
@@ -77,6 +90,7 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <Enroll isOpen={isEnrollModalOpen} onClose={closeModal} />
     </>
   );
 }
