@@ -19,7 +19,7 @@ const Enroll = ({ isOpen, onClose }) => {
   };
 
   const modalDialogStyle = {
-    background: "white",
+    background: "rgb(20, 3, 66)",
     borderRadius: "8px",
     boxShadow: "0 4px 20px rgba(0, 0, 0, 0.2)",
     width: "90%",
@@ -80,9 +80,9 @@ const Enroll = ({ isOpen, onClose }) => {
         transition={{ duration: 0.3 }}
       >
         <div style={modalHeaderStyle}>
-          <h5>Enroll Now</h5>
+          <h5 style={{ color: "white" }}>Enroll Now</h5>
           <button onClick={onClose} aria-label="Close">
-            &times;
+            <h1 style={{ color: "white" }}>&times;</h1>
           </button>
         </div>
         <div style={modalBodyStyle}>
