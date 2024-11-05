@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useContextElement } from "@/context/Context";
 import ModalVideoComponent from "../common/ModalVideo";
-import EnrollForm from "../layout/headers/Popup";
 
 export default function PinContent({ pageItem }) {
   const { isAddedToCartCourses, addCourseToCart } = useContextElement();
   const [isOpen, setIsOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [showEnrollForm, setShowEnrollForm] = useState(false);
 
   // useEffect hook to update the screen width when the window is resized
   useEffect(() => {
@@ -22,9 +20,6 @@ export default function PinContent({ pageItem }) {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
-  const handleEnrollClick = () => setShowEnrollForm(true);
-  const handleCloseEnrollForm = () => setShowEnrollForm(false);
 
   return (
     <>
@@ -68,10 +63,7 @@ export default function PinContent({ pageItem }) {
               )}
             </div>
 
-            <button
-              className="button -md -purple-1 text-white w-1/1"
-              onClick={handleEnrollClick}
-            >
+            <button className="button -md -purple-1 text-white w-1/1">
               Enroll Now
             </button>
 
@@ -174,7 +166,6 @@ export default function PinContent({ pageItem }) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
-      {/* <EnrollForm show={showEnrollForm} handleClose={handleCloseEnrollForm} /> */}
     </>
   );
 }

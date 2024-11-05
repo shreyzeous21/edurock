@@ -24,7 +24,7 @@ export default function HelpCenterPage() {
 
       <Header />
       <div className="content-wrapper js-content-wrapper overflow-hidden">
-        {/* <PageLinks /> */}
+        <PageLinks />
         <HelpCenter />
         <Faq />
         <FooterOne />

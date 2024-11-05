@@ -39,7 +39,9 @@ export default function InstractorSingle({ id }) {
                   <img
                     style={{
                       width: "160px",
-                      height: "50px",
+                      height: "160px",
+                      objectFit: "cover",
+                      borderRadius: "50%",
                     }}
                     src={
                       pageItem.image ||

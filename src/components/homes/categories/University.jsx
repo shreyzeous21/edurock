@@ -72,7 +72,16 @@ const University = () => {
                     >
                       <div className="featureCard__content">
                         <div className="featureCard__icon">
-                          <img src={item.iconSrc} alt="icon" />
+                          <img
+                            src={item.iconSrc}
+                            alt="icon"
+                            style={{
+                              width: "100%",
+                              height: "100%",
+                              borderRadius: "50%",
+                              objectFit: "cover",
+                            }}
+                          />
                         </div>
                         <div className="featureCard__title">
                           {item.title.split(" ")[0]} <br />

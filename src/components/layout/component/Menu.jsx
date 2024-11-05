@@ -38,7 +38,7 @@ export default function Menu({ allClasses, headerPosition }) {
         <div className="mobile-bg js-mobile-bg"></div>
 
         <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-          <Link to="/contact-1" className="text-dark-1 ml-30">
+          <Link to="/" className="text-dark-1 ml-30">
             Enroll Now
           </Link>
         </div>

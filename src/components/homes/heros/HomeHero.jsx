@@ -108,13 +108,13 @@ const HomeHero = () => {
                   <div className="col-12 col-sm-auto">
                     <Link
                       data-barba
-                      to="/signup"
+                      to="#"
                       className="button -md -purple-1 text-white"
                     >
-                      Join For Free
+                      Enroll Now
                     </Link>
                   </div>
-                  <div className="col-12 col-sm-auto">
+                  {/* <div className="col-12 col-sm-auto">
                     <Link
                       data-barba
                       to="/courses-list-1"
@@ -122,7 +122,7 @@ const HomeHero = () => {
                     >
                       Find Courses
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   data-aos="fade-up"
