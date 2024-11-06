@@ -164,6 +164,14 @@ function App() {
                 path="instructors/:id"
                 element={<InstractorSinglePage />}
               />
+              <Route
+                path="instructors/:id"
+                element={<InstractorSinglePage />}
+              />
+              <Route
+                path="university/:title"
+                element={<InstractorSinglePage />}
+              />
 
               <Route
                 path="instructor-become"
@@ -200,15 +208,15 @@ function App() {
               <Route path="event-cart" element={<EventCartPage />} />
               <Route path="event-checkout" element={<EventCheckoutPage />} />
 
-              <Route path="blog-list-1" element={<BlogListpage1 />} />
+              <Route path="blog" element={<BlogListpage1 />} />
               <Route path="blog-list-2" element={<BlogListpage2 />} />
               <Route path="blog-list-3" element={<BlogListpage3 />} />
-              <Route path="blogs/:id" element={<BlogdetailsPage />} />
+              <Route path="blogs/:title" element={<BlogdetailsPage />} />
 
-              <Route path="about-1" element={<AboutPage1 />} />
+              <Route path="about" element={<AboutPage1 />} />
               <Route path="about-2" element={<AboutPage2 />} />
 
-              <Route path="contact-1" element={<ContactPage1 />} />
+              <Route path="contact" element={<ContactPage1 />} />
               <Route path="contact-2" element={<ContactPage2 />} />
 
               <Route path="shop-cart" element={<ShopCartPage />} />

@@ -79,7 +79,7 @@ export default function Menu({ allClasses, headerPosition }) {
 
             <li className="menu-item-has-children">
               <Link
-                to="/about-1"
+                to="/about"
                 className={
                   submenu == "About Us" ? "activeMenu" : "inActiveMenu"
                 }
@@ -294,7 +294,7 @@ export default function Menu({ allClasses, headerPosition }) {
             <li className="menu-item-has-children">
               <Link
                 data-barba
-                to="/blog-list-1"
+                to="/blog"
                 className={menuItem == "Blogs" ? "activeMenu" : ""}
               >
                 Blog
@@ -358,9 +358,9 @@ export default function Menu({ allClasses, headerPosition }) {
             <li>
               <Link
                 data-barba
-                to="/contact-1"
+                to="/contact"
                 className={
-                  pathname == "/contact-1" ? "activeMenu" : "inActiveMenuTwo"
+                  pathname == "/contact" ? "activeMenu" : "inActiveMenuTwo"
                 }
               >
                 Contact

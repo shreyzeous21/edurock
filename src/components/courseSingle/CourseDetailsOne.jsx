@@ -20,7 +20,7 @@ export default function CourseDetailsOne({ id }) {
 
   useEffect(() => {
     setPageItem(coursesData.filter((elm) => elm.id == id)[0] || coursesData[0]);
-  }, []);
+  }, [id]);
 
   return (
     <div id="js-pin-container" className="js-pin-container relative">

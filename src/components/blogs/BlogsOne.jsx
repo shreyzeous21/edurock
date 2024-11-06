@@ -74,7 +74,9 @@ export default function BlogsOne() {
                           <h4 className="blogCard__title text-20 lh-15 fw-500 mt-5">
                             <Link
                               className="linkCustom"
-                              to={`/blogs/${elm.id}`}
+                              to={`/blogs/${elm.title
+                                .replace(/\s+/g, "-")
+                                .toLowerCase()}`}
                             >
                               {elm.title}
                             </Link>
