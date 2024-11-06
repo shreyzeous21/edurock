@@ -24,7 +24,6 @@ export default function CourseListPage1() {
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
         <PageLinks />
         <CourseListOne />
-        {/* <FooterOne /> */}
         <FooterThree />
       </div>
     </div>

@@ -184,7 +184,7 @@ export default function Instractors() {
                             key={i}
                             onClick={() => {
                               setCurrentSortingOption((pre) =>
-                                pre == elm ? "Default" : elm,
+                                pre == elm ? "Default" : elm
                               );
                               document
                                 .getElementById("dd31button")

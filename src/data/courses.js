@@ -18,7 +18,7 @@ export const coursesData = [
     authorName: "Jane Cooper",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: `With the Indian logistics sector poised for significant growth and global investments, there's a pressing need for working professionals equipped with techno-commercial skills. UPES Online's two-year MBA in Logistics and Supply Chain Management not only addresses the strategic and operational aspects of logistics and supply chain management but also provides insights into the latest industry trends.`,
   },
   {
     id: 2,
@@ -42,7 +42,9 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: `The best international leaders are interested in everything. Immigration, trade, climate change, tax rates - anything that affects your ability to thrive in a globally competitive environment. At UPES Online, we ensure you learn how global events affect markets and businesses so you can ride the wave of growth. The power of globalization has increased the accessibility of common borders between countries, economies, and industries. This course will help you understand and review international business strategies and frameworks and explore specific roles in various international business functions.
+
+This program intends to make you an exceptional International Business Management professional with techno-commercial and leadership skills to be able to immerse oneself in the complexity and emerge with stupendous results. The program is designed by industry experts and delivered online to suit working professionals`,
   },
   {
     id: 3,
@@ -63,7 +65,11 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: `India's data analytics industry has experienced explosive growth in the past decade, thanks to a rise in internet users. Data analytics helps companies boost efficiency, such as the CoWin platform developed by the government for an efficient vaccination programme. With internet penetration expected to add over 900 million users by 2025, the demand for professionals who can make data-driven decisions continues to grow. Recruiters increasingly seek such candidates who know how to harness data to beat the competition.
+
+UPES Online’s 2 year MBA with specialization in Business Analytics will equip you to understand business analytics and use it to make informed managerial decisions. This programme is for aspiring executive and working professionals who want to improve their analytical skills for effective decision making. It covers contemporary concepts, predictive and statistical tools used in business analytics, practical insights, and general management skills necessary for career opportunities in India and abroad.
+
+`,
   },
   {
     id: 4,
@@ -84,7 +90,11 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: `Unlock the power of data with our comprehensive Data Analytics course, tailored to equip you with the skills to excel in data science and analytics. This expert-level program is designed to transform you into a data-driven decision-maker, capable of extracting insights from complex data sets and driving business growth.
+
+Through 6 in-depth lessons and over 17 hours of engaging content, you'll delve into the world of data visualization, machine learning, and statistical modeling. Our expert instructor, Jacob Jones, will guide you through hands-on exercises and real-world case studies, ensuring you're well-prepared to tackle the challenges of the data analytics industry.
+
+Whether you're looking to advance your career or transition into a new field, this course is the perfect stepping stone. Join the ranks of data analytics professionals who are shaping the future of business and technology.`,
   },
   {
     id: 5,
@@ -105,7 +115,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 6,
@@ -127,7 +137,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 7,
@@ -149,7 +159,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 8,
@@ -171,7 +181,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 9,
@@ -193,7 +203,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 10,
@@ -216,7 +226,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 11,
@@ -238,7 +248,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 12,
@@ -260,7 +270,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 13,
@@ -281,7 +291,7 @@ export const coursesData = [
     authorName: "Albert Flores",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 14,
@@ -305,7 +315,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 15,
@@ -326,7 +336,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 16,
@@ -347,7 +357,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 17,
@@ -368,7 +378,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 18,
@@ -390,7 +400,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 19,
@@ -398,7 +408,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 3.5,
     ratingCount: 1991,
-    title: "Human Resource ",
+    title: "Human Resource",
     lessonCount: 6,
     duration: 490,
     level: "Intermediate",
@@ -412,7 +422,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 20,
@@ -434,7 +444,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 21,
@@ -456,7 +466,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 22,
@@ -478,7 +488,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 23,
@@ -500,7 +510,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 24,
@@ -522,7 +532,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 25,
@@ -543,7 +553,7 @@ export const coursesData = [
     authorName: "Robert Fox",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 26,
@@ -567,7 +577,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 27,
@@ -588,7 +598,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 28,
@@ -609,7 +619,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 29,
@@ -630,7 +640,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 30,
@@ -652,7 +662,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 31,
@@ -674,7 +684,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 32,
@@ -696,7 +706,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 33,
@@ -718,7 +728,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 34,
@@ -741,7 +751,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 35,
@@ -763,7 +773,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 36,
@@ -785,7 +795,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 37,
@@ -807,7 +817,7 @@ export const coursesData = [
     authorName: "Jane Cooper",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 38,
@@ -831,7 +841,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 39,
@@ -853,7 +863,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 40,
@@ -874,7 +884,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 41,
@@ -895,7 +905,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 42,
@@ -917,7 +927,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
   {
     id: 43,
@@ -939,7 +949,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: ``,
   },
 ];
 
@@ -1043,10 +1053,10 @@ export const rating = [
 ];
 
 export const categories = [
-  { id: 1, title: "Art" },
-  { id: 2, title: "Animation" },
-  { id: 3, title: "Design" },
-  { id: 4, title: "Photography" },
+  { id: 1, title: "MBA" },
+  { id: 2, title: "MCA" },
+  { id: 3, title: "M-Tech" },
+  { id: 4, title: "MSC" },
   { id: 5, title: "Programming" },
 
   { id: 6, title: "Writing" },

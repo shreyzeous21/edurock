@@ -65,9 +65,7 @@ const University = () => {
                 {topUniversities.map((item, i) => (
                   <SwiperSlide key={i}>
                     <Link
-                      to={`/university/${item.title
-                        .replace(/\s+/g, "-")
-                        .toLowerCase()}`}
+                      to={`/university/${item.title}`}
                       data-aos="fade-left"
                       data-aos-duration={(i + 1) * 350}
                       className="featureCard -type-1 -featureCard-hover linkCustomTwo"

@@ -15,11 +15,11 @@ const menuItems = [
   { id: 4, href: "#reviews", text: "Reviews", isActive: false },
 ];
 
-export default function CourseDetailsFour({ id }) {
+export default function CourseDetailsFour({ title }) {
   const [pageItem, setPageItem] = useState(coursesData[0]);
 
   useEffect(() => {
-    setPageItem(coursesData.filter((elm) => elm.id == id)[0] || coursesData[0]);
+    setPageItem(coursesData.filter((elm) => elm.id == id) || coursesData);
   }, []);
 
   return (

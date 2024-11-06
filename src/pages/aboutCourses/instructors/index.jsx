@@ -23,7 +23,7 @@ export default function InstractorSinglePage() {
       <Header />
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
         <PageLinks />
-        <InstractorSingle id={params.id} />
+        <InstractorSingle id={params.id} title={params.title} />
         {/* <FooterOne /> */}
         <FooterThree />
       </div>
