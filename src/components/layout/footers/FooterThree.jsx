@@ -16,14 +16,14 @@ export default function FooterThree() {
             <div className="mt-30">
               <div className="text-17 text-dark-1">Call Us</div>
               <div className="text-17 lh-1 fw-500 text-purple-1 mt-5">
-                800 388 80 90
+                +91 8920715019
               </div>
             </div>
 
             <div className="mt-30 pr-20">
               <div className="lh-17">
-                329 Queensberry Street, North Melbourne VIC 3051, Australia.
-                hi@Edurock.com
+                338, Tower C, Bhutani Cyber Park, Sec 62, Noida, U.P <br />
+                <a href="mailto:info@edurock.in">info@edurock.in</a>
               </div>
             </div>
 

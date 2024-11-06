@@ -6,6 +6,7 @@ import Header from "@/components/layout/headers/Header";
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title:
@@ -26,7 +27,8 @@ export default function ContactPage1() {
         <ContactOne />
         <Faq />
 
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );

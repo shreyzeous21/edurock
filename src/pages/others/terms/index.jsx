@@ -6,6 +6,7 @@ import Header from "@/components/layout/headers/Header";
 import Terms from "@/components/terms/Terms";
 import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title:
@@ -23,7 +24,8 @@ export default function TermsPage() {
       <div className="content-wrapper js-content-wrapper overflow-hidden">
         <PageLinks />
         <Terms />
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );

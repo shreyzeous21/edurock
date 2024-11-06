@@ -113,7 +113,7 @@ function App() {
               <Route path="home-9" element={<HomePage9 />} />
               <Route path="home-10" element={<HomePage10 />} />
 
-              <Route path="courses-list-1" element={<CourseListPage1 />} />
+              <Route path="courses" element={<CourseListPage1 />} />
               <Route path="courses-list-2" element={<CourseListPage2 />} />
               <Route path="courses-list-3" element={<CourseListPage3 />} />
               <Route path="courses-list-4" element={<CourseListPage4 />} />
@@ -208,7 +208,7 @@ function App() {
               <Route path="event-cart" element={<EventCartPage />} />
               <Route path="event-checkout" element={<EventCheckoutPage />} />
 
-              <Route path="blog" element={<BlogListpage1 />} />
+              <Route path="blogs" element={<BlogListpage1 />} />
               <Route path="blog-list-2" element={<BlogListpage2 />} />
               <Route path="blog-list-3" element={<BlogListpage3 />} />
               <Route path="blogs/:title" element={<BlogdetailsPage />} />

@@ -6,6 +6,7 @@ import Header from "@/components/layout/headers/Header";
 import React from "react";
 import { useParams } from "react-router-dom";
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title:
@@ -23,7 +24,8 @@ export default function InstractorSinglePage() {
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
         <PageLinks />
         <InstractorSingle id={params.id} />
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );

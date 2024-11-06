@@ -113,7 +113,7 @@ export const coursesData = [
     imageAlt: "image",
     rating: 4.6,
     ratingCount: 1991,
-    title: "Industrial Safety ",
+    title: "Industrial Safety",
     lessonCount: 6,
     duration: 800,
     level: "Expert",

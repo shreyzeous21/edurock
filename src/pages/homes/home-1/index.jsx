@@ -19,6 +19,11 @@ import Preloader from "@/components/common/Preloader";
 
 import MetaComponent from "@/components/common/MetaComponent";
 import University from "@/components/homes/categories/University";
+import FooterTwo from "@/components/layout/footers/FooterTwo";
+import FooterThree from "@/components/layout/footers/FooterThree";
+import FooterFour from "@/components/layout/footers/FooterFour";
+import FooterFive from "@/components/layout/footers/FooterFive";
+import FooterSeven from "@/components/layout/footers/FooterSeven";
 
 const metadata = {
   title: "Edurock - Professional LMS Online Education Course PLatform",
@@ -46,7 +51,12 @@ export default function HomePage1() {
         {/* <GetApp /> */}
         <Blog />
         <Join />
-        <FooterOne />
+        {/* <FooterOne />
+        <FooterTwo /> */}
+        <FooterThree />
+        {/* <FooterSeven /> */}
+        {/* <FooterFour />
+        <FooterFive /> */}
       </div>
     </>
   );

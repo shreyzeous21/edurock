@@ -7,6 +7,7 @@ import Header from "@/components/layout/headers/Header";
 import React from "react";
 
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title: "Blogs || Edurock - Professional LMS Online Education Course Platform",
@@ -26,7 +27,8 @@ export default function BlogListpage1() {
 
         <BlogsOne />
 
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );

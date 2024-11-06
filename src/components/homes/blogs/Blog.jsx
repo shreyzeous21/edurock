@@ -56,7 +56,12 @@ export default function News() {
                 <div className="blogCard__content">
                   <div className="blogCard__category">{elm.category}</div>
                   <h4 className="blogCard__title">
-                    <Link className="linkCustom" to={`/blogs/${elm.id}`}>
+                    <Link
+                      className="linkCustom"
+                      to={`/blogs/${elm.title
+                        .replace(/\s+/g, "-")
+                        .toLowerCase()}`}
+                    >
                       {elm.title}
                     </Link>
                   </h4>

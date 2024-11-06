@@ -8,6 +8,7 @@ import BlogDetails from "@/components/blogs/BlogDetails";
 import Preloader from "@/components/common/Preloader";
 import { useParams } from "react-router-dom";
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title:
@@ -31,7 +32,8 @@ export default function BlogdetailsPage() {
 
         <RelatedBlogs />
 
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );

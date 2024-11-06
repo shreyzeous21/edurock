@@ -8,6 +8,7 @@ import HelpCenter from "@/components/others/HelpCenter";
 import Terms from "@/components/terms/Terms";
 import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
+import FooterThree from "@/components/layout/footers/FooterThree";
 
 const metadata = {
   title:
@@ -27,7 +28,8 @@ export default function HelpCenterPage() {
         <PageLinks />
         <HelpCenter />
         <Faq />
-        <FooterOne />
+        {/* <FooterOne /> */}
+        <FooterThree />
       </div>
     </div>
   );
