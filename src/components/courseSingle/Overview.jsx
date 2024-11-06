@@ -2,6 +2,8 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { learnList, requirements } from "@/data/aboutcourses";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { coursesData } from "@/data/courses";
+import { ListItem } from "@mui/material";
 export default function Overview() {
   const [showMore, setShowMore] = useState(false);
 
@@ -18,27 +20,13 @@ export default function Overview() {
           className="show-more__content "
           style={showMore ? { maxHeight: "370px" } : {}}
         >
-          <p className="">
-            Phasellus enim magna, varius et commodo ut, ultricies vitae velit.
-            Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel
-            justo. In libero urna, venenatis sit amet ornare non, suscipit nec
-            risus. Sed consequat justo non mauris pretium at tempor justo
-            sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur.
-            <br />
-            <br />
-            This course is aimed at people interested in UI/UX Design. We’ll
-            start from the very beginning and work all the way through, step by
-            step. If you already have some UI/UX Design experience but want to
-            get up to speed using Adobe XD then this course is perfect for you
-            too!
-            <br />
-            <br />
-            First, we will go over the differences between UX and UI Design. We
-            will look at what our brief for this real-world project is, then we
-            will learn about low-fidelity wireframes and how to make use of
-            existing UI design kits.
-          </p>
+          {/* {coursesData.map((list, id) => (
+            <p key={id}>{list.desc}</p>
+          ))} */}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          quia commodi eveniet, similique eaque nobis quam magnam atque ipsum
+          debitis obcaecati numquam eum excepturi. Veritatis quod natus eius
+          numquam sint!
         </div>
 
         <button
@@ -50,7 +38,7 @@ export default function Overview() {
       </div>
 
       <div className="mt-60">
-        <h4 className="text-20 mb-30">What you'll learn</h4>
+        <h4 className="text-20 mb-30">What you`ll learn</h4>
         <div className="row x-gap-100 justfiy-between">
           <div className="col-md-6">
             <div className="y-gap-20">

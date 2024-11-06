@@ -16,10 +16,10 @@ const menuItems = [
 ];
 
 export default function CourseDetailsOne({ id }) {
-  const [pageItem, setPageItem] = useState(coursesData[0]);
+  const [pageItem, setPageItem] = useState(coursesData[1]);
 
   useEffect(() => {
-    setPageItem(coursesData.filter((elm) => elm.id == id)[0] || coursesData[0]);
+    setPageItem(coursesData.filter((elm) => elm.id == id)[1] || coursesData[1]);
   }, [id]);
 
   return (
@@ -68,7 +68,8 @@ export default function CourseDetailsOne({ id }) {
                 <div className="d-flex x-gap-30 y-gap-10 items-center flex-wrap pt-20">
                   <div className="d-flex items-center">
                     <div className="text-14 lh-1 text-yellow-1 mr-10">
-                      {pageItem.rating}
+                      {/* {pageItem.rating} */}
+                      5.8
                     </div>
                     <div className="d-flex x-gap-5 items-center">
                       <Star star={5} textSize={"text-11"} />
@@ -99,7 +100,7 @@ export default function CourseDetailsOne({ id }) {
                     }}
                   ></div>
                   <div className="text-14 lh-1 ml-10">
-                    {pageItem.authorName}
+                    {/* {pageItem.authorName} */}
                   </div>
                 </div>
               </div>
