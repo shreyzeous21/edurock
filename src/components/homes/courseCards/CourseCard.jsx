@@ -56,14 +56,11 @@ export default function CourceCard({ data, index }) {
                   <div key={i} className="icon-star text-9 text-yellow-1"></div>
                 ))}
               </div>
-              <div className="text-13 lh-1 ml-10">({data.ratingCount})</div>
+              {/* <div className="text-13 lh-1 ml-10">({data.ratingCount})</div> */}
             </div>
 
             <div className="text-17 lh-15 fw-500 text-dark-1 mt-10">
-              <Link
-                className="linkCustom"
-                to={`/courses/${data.title.replace(/\s+/g, "-").toLowerCase()}`}
-              >
+              <Link className="linkCustom" to={`/courses/${data.id}`}>
                 {data.title}
               </Link>
             </div>
