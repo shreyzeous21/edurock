@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { coursesData } from "@/data/courses";
 import { ListItem } from "@mui/material";
-export default function Overview() {
+export default function Overview({ pageItem }) {
   const [showMore, setShowMore] = useState(false);
 
   return (
@@ -20,13 +20,7 @@ export default function Overview() {
           className="show-more__content "
           style={showMore ? { maxHeight: "370px" } : {}}
         >
-          {/* {coursesData.map((list, id) => (
-            <p key={id}>{list.desc}</p>
-          ))} */}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          quia commodi eveniet, similique eaque nobis quam magnam atque ipsum
-          debitis obcaecati numquam eum excepturi. Veritatis quod natus eius
-          numquam sint!
+          <p>{pageItem.desc}</p>
         </div>
 
         <button

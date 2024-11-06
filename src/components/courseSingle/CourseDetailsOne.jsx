@@ -130,9 +130,9 @@ export default function CourseDetailsOne({ id }) {
                 </div>
               </div>
 
-              <Overview />
+              <Overview pageItem={pageItem} />
               <CourseContent />
-              <Instractor />
+              {/* <Instractor /> */}
               <Reviews />
             </div>
           </div>
